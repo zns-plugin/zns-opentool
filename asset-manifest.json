@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zns-opentool/static/css/0.1.9/main.896a4028.css",
+    "main.js": "/zns-opentool/static/js/0.1.9/main.896a4028.js",
+    "static/js/0.1.9/787.b602431e.js": "/zns-opentool/static/js/0.1.9/787.b602431e.js",
+    "index.html": "/zns-opentool/index.html",
+    "static/media/index.cjs": "/zns-opentool/static/media/index.433019db0fc741f26829.cjs",
+    "main.896a4028.css.map": "/zns-opentool/static/css/0.1.9/main.896a4028.css.map",
+    "main.896a4028.js.map": "/zns-opentool/static/js/0.1.9/main.896a4028.js.map",
+    "787.b602431e.js.map": "/zns-opentool/static/js/0.1.9/787.b602431e.js.map"
+  },
+  "entrypoints": [
+    "static/css/0.1.9/main.896a4028.css",
+    "static/js/0.1.9/main.896a4028.js"
+  ]
+}
