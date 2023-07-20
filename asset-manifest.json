@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zns-opentool/static/css/0.1.0/main.6493a64c.css",
-    "main.js": "/zns-opentool/static/js/0.1.0/main.6493a64c.js",
+    "main.css": "/zns-opentool/static/css/0.1.0/main.46716fca.css",
+    "main.js": "/zns-opentool/static/js/0.1.0/main.46716fca.js",
     "static/js/0.1.0/787.f2e47d0a.js": "/zns-opentool/static/js/0.1.0/787.f2e47d0a.js",
     "index.html": "/zns-opentool/index.html",
     "static/media/index.cjs": "/zns-opentool/static/media/index.433019db0fc741f26829.cjs",
-    "main.6493a64c.css.map": "/zns-opentool/static/css/0.1.0/main.6493a64c.css.map",
-    "main.6493a64c.js.map": "/zns-opentool/static/js/0.1.0/main.6493a64c.js.map",
+    "main.46716fca.css.map": "/zns-opentool/static/css/0.1.0/main.46716fca.css.map",
+    "main.46716fca.js.map": "/zns-opentool/static/js/0.1.0/main.46716fca.js.map",
     "787.f2e47d0a.js.map": "/zns-opentool/static/js/0.1.0/787.f2e47d0a.js.map"
   },
   "entrypoints": [
-    "static/css/0.1.0/main.6493a64c.css",
-    "static/js/0.1.0/main.6493a64c.js"
+    "static/css/0.1.0/main.46716fca.css",
+    "static/js/0.1.0/main.46716fca.js"
   ]
 }
