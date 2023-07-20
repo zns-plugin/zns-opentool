@@ -7,34 +7,39 @@ import { ROUTE } from "./constants";
 import { ProtectedLayout } from "./modules/ProtectedLayout";
 import ErrorBoundary from "./share/componens/ErrorBoundary";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: ROUTE.MAIN,
+      element: (
+        <ErrorBoundary>
+          <Layout />
+        </ErrorBoundary>
+      ),
+      children: [
+        {
+          path: ROUTE.LIST_TEMPLATE,
+          element: <ListTemplate />,
+        },
+        {
+          path: ROUTE.DETAIL_TEMPALTE,
+          element: <DetailTemplate />,
+        },
+        {
+          path: "*",
+          element: <Navigate to={ROUTE.LOGIN} />,
+        },
+      ],
+    },
+    {
+      path: ROUTE.LOGIN,
+      element: <ProtectedLayout />,
+    },
+  ],
   {
-    path: ROUTE.MAIN,
-    element: (
-      <ErrorBoundary>
-        <Layout />
-      </ErrorBoundary>
-    ),
-    children: [
-      {
-        path: ROUTE.LIST_TEMPLATE,
-        element: <ListTemplate />,
-      },
-      {
-        path: ROUTE.DETAIL_TEMPALTE,
-        element: <DetailTemplate />,
-      },
-      {
-        path: "*",
-        element: <Navigate to={ROUTE.LOGIN} />,
-      },
-    ],
-  },
-  {
-    path: ROUTE.LOGIN,
-    element: <ProtectedLayout />,
-  },
-]);
+    basename: "/zns-opentool",
+  }
+);
 
 export const navConfig = [
   {
